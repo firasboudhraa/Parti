@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -10,12 +11,12 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Bienvenue à Phenix</h1>
           <p className="text-lg md:text-2xl mb-8">Revenir Plus Fort, Bâtir Plus Haut.</p>
           <div className="buttons flex justify-center space-x-4">
-            <button className="learn-more bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition-all duration-150 ease-in-out">
+            <Link href="/Presentation" className="learn-more bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition-all duration-150 ease-in-out">
               Learn More
-            </button>
-            <button className="get-started bg-white text-blue-600 py-2 px-6 rounded-md hover:bg-gray-200 transition-all duration-150 ease-in-out">
+            </Link>
+            <Link  href="/Connexion"className="get-started bg-white text-blue-600 py-2 px-6 rounded-md hover:bg-gray-200 transition-all duration-150 ease-in-out">
               Get Started
-            </button>
+            </Link>
           </div>
         </div>
       </div>
