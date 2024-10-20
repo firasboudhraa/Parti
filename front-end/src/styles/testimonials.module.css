@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700');
+
+.testimonial-container {
+  max-width: 1200px; 
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto; 
+  padding: 2rem; 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2.5rem; /* Increased font size for better visibility */
+  line-height: 1.2; /* Adjusted line height for readability */
+  color: #e11010; /* Darker color for better contrast */
+}
+
+.title p {
+  font-size: 1.25rem; /* Slightly larger font size for emphasis */
+  color: #666; /* Slightly lighter color for secondary text */
+}
+
+.no-reviews {
+  text-align: center;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.no-reviews h2 {
+  font-size: 2rem; /* Increased font size for emphasis */
+  color: #007bff; /* Blue color for a more engaging appearance */
+  font-weight: 600; /* Bold for emphasis */
+  margin-bottom: 1rem; /* Spacing below the heading */
+}
+
+.no-reviews p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.no-reviews p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.slider-container {
+  position: relative;
+  user-select: none;
+  padding-inline: 1rem;
+  padding-bottom: 2rem; /* Added padding for bottom spacing */
+}
+
+.slider-container .quote {
+  position: absolute;
+  z-index: -1;
+}
+
+.slider-container .top-quote {
+  top: -1rem;
+  left: -1rem;
+}
+
+.slider-container .bottom-quote {
+  bottom: -3rem;
+  right: -0.5rem;
+  transform: rotate(180deg);
+}
+
+.slider-container .review-img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  margin-inline: auto;
+}
+
+.splide__track {
+  border-radius: 1rem;
+}
+
+.splide__slide {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  background-color: #fff;
+  padding: 3rem 2.5rem; 
+  border-radius: 1rem;
+  gap: 2rem; 
+  text-align: center; 
+}
+
+.slider-container .content {
+  text-align: center; 
+}
+
+.slider-container .content .text {
+  color: #484646;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.slider-container .content .rating {
+  display: inline-block;
+  line-height: 1;
+}
+
+.slider-container .content .star {
+  color: #ff6f59;
+  font-size: 1.1rem;
+}
+
+.slider-container .content .user {
+  font-weight: 600;
+  color: #000000;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #ff6f59;
+}
+
+.splide__arrow {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #505050;
+  font-weight: 300;
+}
+
+.splide__arrow--prev {
+  top: 50%;
+  left: -3.5rem;
+}
+
+.splide__arrow--next {
+  top: 50%;
+  right: -3.5rem;
+}
+
+.splide__pagination__page {
+  height: 10px;
+  width: 10px;
+  opacity: 1;
+}
+
+/* Media Query */
+@media (max-width: 576px) {
+  .splide__slide {
+    display: block;
+    text-align: center;
+  }
+
+  .splide__arrow {
+    font-size: 1.5rem;
+  }
+
+  .splide__arrow--prev {
+    left: 0.5rem;
+  }
+
+  .splide__arrow--next {
+    right: 0.5rem;
+  }
+
+  .slider-container .bottom-quote {
+    right: 0;
+  }
+}
