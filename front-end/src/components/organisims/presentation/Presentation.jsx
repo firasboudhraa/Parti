@@ -90,7 +90,7 @@ const Presentation = () => {
 
         <div
           className="get-involved relative bg-cover bg-center text-white p-8 rounded-lg shadow-lg overflow-hidden"
-          style={{ backgroundImage: 'url("/path/to/your/image.jpg")' }}
+          style={{ backgroundImage: 'url("")' }}
         >
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="relative z-10 text-center">

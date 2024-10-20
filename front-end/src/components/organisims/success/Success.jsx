@@ -8,8 +8,8 @@ const SuccessSection = () => {
   return (
     <section className="success-section py-16 bg-gradient-to-r from-purple-200 to-indigo-700">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-5xl font-bold mb-8 text-white">Our Milestones</h2>
-        <p className="text-lg mb-12 text-gray-200">See how our efforts have grown and the milestones we've reached.</p>
+        <h2 className="text-5xl font-bold mb-8 text-white">Nos jalons</h2>
+        <p className="text-lg mb-12 text-gray-200">Découvrez comment nos efforts ont évolué et les jalons que nous avons atteints</p>
         
         <div className="metrics grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <motion.div
@@ -18,9 +18,9 @@ const SuccessSection = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FaProjectDiagram className="text-6xl text-white mb-4 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-2 text-white">Projects Completed</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-white">Evénements réussis</h3>
             <p className="text-4xl font-bold text-yellow-200">
-              <CountUp end={120} duration={3} />
+              <CountUp end={14} duration={9} />
             </p>
           </motion.div>
           <motion.div
@@ -29,9 +29,9 @@ const SuccessSection = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FaDonate className="text-6xl text-white mb-4 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-2 text-white">Donations Received</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-white">Dons reçus</h3>
             <p className="text-4xl font-bold text-white">
-              <CountUp end={50000} duration={3} prefix="$" />
+              <CountUp end={50000} duration={3} prefix="TND " />
             </p>
           </motion.div>
           <motion.div
@@ -40,7 +40,7 @@ const SuccessSection = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FaUsers className="text-6xl text-white mb-4 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-2 text-white">Beneficiaries Served</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-white">Bénéficiaires servis</h3>
             <p className="text-4xl font-bold text-yellow-200">
               <CountUp end={10000} duration={3} />
             </p>
@@ -51,7 +51,7 @@ const SuccessSection = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FaHandsHelping className="text-6xl text-white mb-4 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-2 text-white">Volunteers Joined</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-white">Volontaires engagés</h3>
             <p className="text-4xl font-bold text-yellow-200">
               <CountUp end={800} duration={3} />
             </p>

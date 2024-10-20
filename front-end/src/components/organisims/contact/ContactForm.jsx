@@ -120,10 +120,10 @@ const ContactForm = () => {
             onChange={(e) => setSubject(e.target.value)}
           >
             <option value="">Select...</option>
-            <option value="Demande d'informations">Demande d'informations</option>
+            <option value="Demande d'informations">Demande d'aide</option>
             <option value="Demande de partenariat">Demande de partenariat</option>
             <option value="Réclamation">Réclamation</option>
-            <option value="Demande de Déblocage">Demande de Déblocage</option>
+            <option value="Demande de Déblocage">Proposition d'une idée</option>
             <option value="Autre sujet">Autre sujet</option>
           </select>
         </div>

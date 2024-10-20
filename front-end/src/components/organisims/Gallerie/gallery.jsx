@@ -18,7 +18,7 @@ export default function GalleryPage() {
 
   return (
     <div>
-      <section className='min-h-screen bg-[var(--bgSoft)] py-12'>
+      <section className='min-h-screen bg-yellow-50  py-12'>
         <div className='container'>
           <Swiper
             loop={true}

@@ -24,7 +24,7 @@ const Footer = () => {
             <ul>
               <li><Link href="/" className="hover:text-yellow-400">Acceuil</Link></li>
               <li><Link href="/Membres" className="hover:text-yellow-400">Membres</Link></li>
-              <li><Link href="/Presentation" className="hover:text-yellow-400">A propos</Link></li>
+              <li><Link href="/Presentation" className="hover:text-yellow-400">Programme</Link></li>
               <li><Link href="/Event" className="hover:text-yellow-400">Evénements</Link></li>
               <li><Link href="/Contact" className="hover:text-yellow-400">Contact</Link></li>
             </ul>
@@ -76,7 +76,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 text-center text-gray-400">
-          <p>&copy; 2024 AssociaConnect. All rights reserved.</p>
+          <p>&copy; 2104 Phenix. All rights reserved.</p>
         </div>
       </div>
     </footer>

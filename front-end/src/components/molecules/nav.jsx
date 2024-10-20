@@ -98,7 +98,7 @@ const Navbar = () => {
           <div className="relative group">
             <Link href="/Presentation" className="flex items-center px-3 py-2 text-white hover:text-yellow-400 relative">
               <BusinessIcon className="mr-2" />
-              A propos
+              Programme
             </Link>
             <div className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
           </div>
@@ -171,7 +171,7 @@ const Navbar = () => {
                       role="menuitem"
                     >
                       <LogoutIcon className="mr-2" />
-                      Logout
+                      Déconnexion
                     </button>
                   </div>
                 </div>

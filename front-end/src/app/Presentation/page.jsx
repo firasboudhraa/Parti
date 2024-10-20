@@ -13,9 +13,6 @@ const App = () => {
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900">
             <Navbar />
             <div className="mt-10 mb-10 max-w-7xl w-full p-4">
-                <h1 className="text-4xl font-bold text-center text-white mb-6 transition-transform transform hover:scale-105">
-                    Mon Programme Électoral
-                </h1>
 
                 {loading && (
                     <div className="flex justify-center items-center h-96">

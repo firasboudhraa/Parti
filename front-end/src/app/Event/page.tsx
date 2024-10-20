@@ -106,7 +106,7 @@ export default function Home() {
 
   function formatPrice(price: number | undefined): string {
     if (typeof price === "number") {
-      return `$${price.toFixed(2)}`;
+      return `TND${price.toFixed(2)}`;
     }
     return "$0.00";
   }
@@ -186,16 +186,16 @@ export default function Home() {
                                 "No description available."}
                             </p>
                             <p className="text-sm text-white mt-2">
-                              <strong>Price:</strong>{" "}
+                              <strong>Coût:</strong>{" "}
                               {formatPrice(eventToJoin?.price)}
                             </p>
                             <p className="text-sm text-white mt-2">
-                              <strong>Start:</strong>{" "}
+                              <strong>Date:</strong>{" "}
                               {new Date(eventToJoin?.start).toLocaleString()}
                             </p>
                             <p className="text-sm text-white mt-2">
-                              <strong>All Day:</strong>{" "}
-                              {eventToJoin?.allDay ? "Yes" : "No"}
+                              <strong>Toute la journée:</strong>{" "}
+                              {eventToJoin?.allDay ? "Oui" : "Non"}
                             </p>
                           </div>
                         </div>
@@ -207,14 +207,14 @@ export default function Home() {
                         className="inline-flex w-full justify-center rounded-md bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-teal-500 sm:ml-3 sm:w-auto"
                         onClick={handleJoin}
                       >
-                        Join
+                        Joindre
                       </button>
                       <button
                         type="button"
                         className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-gray-300 hover:ring-gray-400 sm:ml-3 sm:w-auto"
                         onClick={handleCloseModal}
                       >
-                        Cancel
+                        Annuler
                       </button>
                     </div>
                   </Dialog.Panel>
@@ -249,7 +249,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-lg font-semibold">You need to log in to join this event.</p>
+              <p className="text-lg font-semibold">Vous devez vous connecter pour participer à cet événement.</p>
             </div>
           </Modal.Body>
           <Modal.Footer className="bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500">
