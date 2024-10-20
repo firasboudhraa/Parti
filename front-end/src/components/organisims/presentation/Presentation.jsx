@@ -53,7 +53,7 @@ const Presentation = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="achievement-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-transform transform hover:scale-105">
               <FaMedal className="text-6xl text-yellow-500 mb-4" />
-              <h4 className="text-3xl font-semibold mb-2">100+ Initiatives</h4>
+              <h4 className="text-3xl font-semibold mb-2 text-blue-500"> </h4>
               <p className="text-lg text-gray-700">
               Nous avons mis en œuvre plus de 100 initiatives communautaires 
               qui ont réellement fait une différence dans la vie des Tunisiens.
@@ -61,16 +61,15 @@ const Presentation = () => {
             </div>
             <div className="achievement-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-transform transform hover:scale-105">
               <FaUserGraduate className="text-6xl text-green-500 mb-4" />
-              <h4 className="text-3xl font-semibold mb-2">500+ Bourses</h4>
+              <h4 className="text-3xl font-semibold mb-2 text-blue-500"></h4>
               <p className="text-lg text-gray-700">
               Nos programmes de bourses ont soutenu plus de 500 étudiants, 
               les aidant à réaliser leurs ambitions éducatives.
               </p>
             </div>
             <div className="achievement-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-transform transform hover:scale-105">
-              <FaHeartbeat className="text-6xl text-red-500 mb-4" />
-              <h4 className="text-3xl font-semibold mb-2">
-                10,000+ Bénéficiaires
+              <FaHeartbeat className="text-6xl text-red-500 mb-4 " />
+              <h4 className="text-3xl font-semibold mb-2 text-blue-500">
               </h4>
               <p className="text-lg text-gray-700">
               Nos initiatives en santé ont touché plus de 10,000 individus, 
@@ -79,8 +78,7 @@ const Presentation = () => {
             </div>
             <div className="achievement-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-transform transform hover:scale-105">
               <FaHandsHelping className="text-6xl text-blue-500 mb-4" />
-              <h4 className="text-3xl font-semibold mb-2">
-              Récompenses et Reconnaissances
+              <h4 className="text-3xl font-semibold mb-2 text-blue-500">
               </h4>
               <p className="text-lg text-gray-700">
               Nous avons été honorés de recevoir de nombreuses récompenses 

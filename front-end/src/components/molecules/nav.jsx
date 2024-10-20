@@ -111,13 +111,6 @@ const Navbar = () => {
             <div className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
           </div>
         </div>
-        <div className="relative group">
-            <Link href="/Presentation" className="flex items-center px-3 py-2 text-white hover:text-yellow-400 relative">
-              <BusinessIcon className="mr-2" />
-              A propos
-            </Link>
-            <div className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-          </div>
 
         {/* Conditional Render for Login or User Dropdown */}
         <div className="flex items-center">
